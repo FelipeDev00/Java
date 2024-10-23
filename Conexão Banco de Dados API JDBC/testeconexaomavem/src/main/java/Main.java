@@ -7,7 +7,7 @@ public class Main {
         Connection conexao = null;
 try {
     Class.forName("com.mysql.cj.jdbc.Driver");
-    conexao = DriverManager.getConnection("jdbc:mysql://localhost/exemplo_senac","root","Mago@eletrico0000");
+    conexao = DriverManager.getConnection("jdbc:mysql://localhost/nome_do_banco","nome usuário banco","senha banco");
     System.out.println("Conexão estabelecida com o MySQL e com o banco de dados!");
 } catch (ClassNotFoundException ex) {
     System.out.println("Driver do banco de dados não localizado!");

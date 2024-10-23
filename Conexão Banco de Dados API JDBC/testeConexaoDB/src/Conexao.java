@@ -6,9 +6,9 @@ public class Conexao {
 
     Connection conn;
 
-    public String url = "jdbc:mysql://localhost:3306/exemplo_senac"; //Nome da base de dados
-    public String user = "root"; //nome do usuário do MySQL
-    public String password = "Mago@eletrico0000"; //senha do MySQL 
+    public String url = "jdbc:mysql://localhost:3306/nome_do_banco";
+    public String user = ""; //Nome do usuário MySQL
+    public String password = ""; //Senha do usuário MySQL
 
     public boolean conectar(){
 

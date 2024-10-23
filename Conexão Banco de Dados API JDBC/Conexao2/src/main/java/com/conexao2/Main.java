@@ -17,8 +17,7 @@ public class Main {
             stmt = conector.conn.createStatement();
             System.out.println("Pronto para execução de comandos SQL.");
         } catch (SQLException sqle) {
-            System.out.println("Erro no acesso ao Banco de Dados: " +
-                                                           sqle.getMessage());
+            System.out.println("Erro no acesso ao Banco de Dados: " + sqle.getMessage());
         }
 
         try{
@@ -34,4 +33,3 @@ public class Main {
 
     }
 }
-              
